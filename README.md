@@ -1,7 +1,5 @@
 #Charter School Competition Study
-##Data Sources and Documentation
-
-**Last Modified**: January 30, 2015
+##Data and Documentation
 
 **NOTE:** This analysis and working paper are based on a replication of my original study using Bayesian techniques for use in a class project.  The models specified are not intended to estimate causal effects--they are demonstrations of the Bayesian techniques that I learned in the class, along with an outline for improvements.  The original analysis and paper, for which I used a fixed effects model, are not available in this repository.
 
