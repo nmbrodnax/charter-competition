@@ -3,6 +3,8 @@
 
 **NOTE:** This analysis and working paper are based on a replication of my original study using Bayesian techniques for use in a class project.  The models specified are not intended to estimate causal effects--they are demonstrations of the Bayesian techniques that I learned in the class, along with an outline for improvements.  The original analysis and paper, for which I used a fixed effects model, are not available in this repository.
 
+[Download the Working Paper](https://github.com/nmbrodnax/charter-competition/blob/master/report/tps_charter_competition.pdf)
+
 **Abstract**: Over the past twenty years, charter schools have become an increasingly popular alternative to failing neighborhood schools.  Though they are publicly funded, charter schools are exempt from many of the state- and district-level policies governing structure, curriculum, personnel, and other aspects of learning.  Since the first charter school opened in 1992, over 4,000 charter schools have opened in forty states and the District of Columbia. Charter schools face a tall order: in exchange for public funding and increased autonomy, they are expected to improve achievement and create competition for neighborhood schools, the administrations of which must adapt or face sanctions.  This analysis explores the extent to which traditional public schools (TPSs) respond to competition from charter schools.  Using data from Illinois public schools, I test whether proximity to a charter school is associated with an increase in aggregate achievement at the school level.
 
 ###IL Schools Report Card Data
@@ -25,7 +27,7 @@
 
 ###Analysis in R
 * 1a_clean data_2009.R creates prior.dat
-* 1a_clean_data_2011 creates data.dat and charter.dat
+* 1a_clean_data_2011.R creates data.dat and charter.dat
 * 2_merge_data.R creates compete.dat
 * 3_bayesian_regression.R performs analysis on compete.dat
 * 4_bayesian_hierarchical.R performs analysis on compete.dat
